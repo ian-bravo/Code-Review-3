@@ -1,20 +1,22 @@
 //Business Logic
 
 let userInput = "5" // or [5]
-const splitArr = [];
+
 function subAlgo(number) {
-    
+    const splitArr = [];
     for (let i = 0; i <= number; i++) {
-        splitArr.push(i); // puts the userInput as an array
         const workingArr = splitArr[i]; // references an array element within splitArr
-        console.log(workingArr);
-        if (workingArr === "1") { //looks at the index value that matches 1
-            workingArr[i] = "a"; //replaces matching index value with "a"
-        }
-        console.log(workingArr);
+        splitArr.push(i); // puts the userInput as an array
+        
     }
-    console.log(splitArr);
 }
+
+
+// if (workingArr === 1) { //looks at the index value that matches 1
+    // workingArr[i] = "a"; //replaces matching index value with "a"
+
+
+
     // console.log(splitArr); //array of 0 to N
     // const stringSplitArr = splitArr.toString();
     // console.log(stringSplitArr); //converts array into a string.
