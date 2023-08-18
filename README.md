@@ -15,6 +15,12 @@ subAlgo(userInput);
 Expected Output:
 [0, "a", 2, 3, 4, 5]
 
+Test 3:It should replace 2 with a string, within the array.
+Code:
+const userInput = "5"
+subAlgo(userInput);
+Expected Output:
+[0, 'a', 'b', 3, 4, 5]
 
 
 
