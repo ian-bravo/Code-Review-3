@@ -9,7 +9,7 @@ function subAlgo(number) {
             splitArr[i] = 'a'
         }
         
-    }console.log(splitArr);
+    }console.log(splitArr.findIndex);
 }
 
 
