@@ -5,11 +5,11 @@ let userInput = "5" // or [5]
 function subAlgo(number) {
     const splitArr = [];
     for (let i = 0; i <= number; i++) {
-        const workingArr = splitArr[i]; // references an array element within splitArr
         splitArr.push(i); // puts the userInput as an array
-        
     }
+    splitArr.forEach()
 }
+
 
 
 // if (workingArr === 1) { //looks at the index value that matches 1
