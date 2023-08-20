@@ -10,6 +10,7 @@ function subAlgo(number) {
         let subStringOne = stringArr.replaceAll('1', 'a');
         let subStringTwo = subStringOne.replaceAll('2', 'b');
         let subStringThree = subStringTwo.replaceAll('3', 'c');
+        
         // workingSubArray = stringArr.split(" ");
         // console.log(workingSubArray);
         // if (workingSubArray.charAt(1) === 1){

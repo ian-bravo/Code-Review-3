@@ -29,4 +29,11 @@ subAlgo(userInput);
 Expected Output:
 '0, a, b, c, 4, 5'
 
+Test 5: It should replace 'a0' with 'a'.
+Code:
+const userInput = "10"
+subAlgo(userInput);
+Expected Output:
+'0, a, b, c, 4, 5, 6, 7, 8, 9, a'
+
 ```
