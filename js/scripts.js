@@ -1,6 +1,6 @@
 //Business Logic
 
-let userInput = "10" // or [5]
+let userInput = "11" // or [5]
 function subAlgo(number) {
     let userInputToArr = [];
     for (let i = 0; i <= number; i++) {
@@ -10,12 +10,25 @@ function subAlgo(number) {
         let subStringOne = stringArr.replaceAll('1', 'a');
         let subStringTwo = subStringOne.replaceAll('2', 'b');
         let subStringThree = subStringTwo.replaceAll('3', 'c');
-        
+    
         let finalResult = [];
-        if (subStringThree.includes('a0') === true) {
-            finalResult.push(subStringThree.replaceAll('a0', 'a'));
+        
+        
+        if (subStringThree.includes('a') === true) {
+            finalResult.push(subStringThree.replaceAll('a0', 'a').replace('aa','a'));
+            
             console.log(finalResult);
         } 
+        // } else if (subStringThree.includes('aa') === true){
+        //     finalResult.push(subStringThree.replaceAll('aa', 'a'));
+        // } 
+
+
+        // let newArr = subStringThree.replaceAll('a0', 'a');
+        // let newArr2 = newArr.replaceAll('aa','a');
+        // console.log(newArr2);
+
+
         // workingSubArray = stringArr.split(" ");
         // console.log(workingSubArray);
         // if (workingSubArray.charAt(1) === 1){
