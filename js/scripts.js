@@ -2,11 +2,30 @@
 
 let userInput = "5" // or [5]
 function subAlgo(number) {
-    let splitArr = [];
+    let userInputToArr = [];
     for (let i = 0; i <= number; i++) {
-        splitArr.push(i);// sets the userInput as an array [0-N]
-        let stringArr = splitArr.toString(); // converts the array to a string.
-        console.log(stringArr);
+        userInputToArr.push(i);// sets the userInput as an array [0-N]
+        // console.log(userInputToArr);
+        let stringArr = userInputToArr.toString(); // converts the array to a string.
+        let subStringOne = stringArr.replaceAll('1', 'a');
+        let subStringTwo = subStringOne.replaceAll('2', 'b');
+        // workingSubArray = stringArr.split(" ");
+        // console.log(workingSubArray);
+        // if (workingSubArray.charAt(1) === 1){
+        //     workingSubArray.charAt(1) = 'a'
+        //     console.log(workingSubArray);
+        // }
+        // debugger;
+        console.log(subStringOne);
+        console.log(subStringTwo);
+        // stringArr.forEach(function(element){
+
+        // });
+        //write if else here, to grab 3 > 2, 1, from double digits?
+        // stringArr.forEach(function(element){
+        //     //if === 1 
+        //     // = a
+        // });
         // if (splitArr[i] === 1) {
         //     splitArr[i] = 'a'
         // }
@@ -15,9 +34,8 @@ function subAlgo(number) {
     //     let stringArr = splitArr.
     }
 
-    console.log(splitArr);
+    
 }
-
 
 
 // if (workingArr === 1) { //looks at the index value that matches 1
