@@ -42,4 +42,11 @@ const userInput = "11"
 subAlgo(userInput):
 Expected Output:
 '0, a, b, c, 4, 5, 6, 7, 8, 9, a, a'
+
+Test 7: It should replace 'ab' with 'b'.
+Code:
+const userInput = "12"
+subAlgo(userInput):
+Expected Output:
+'0, a, b, c, 4, 5, 6, 7, 8, 9, a, a, b'
 ```
