@@ -9,6 +9,7 @@ function subAlgo(number) {
         let stringArr = userInputToArr.toString(); // converts the array to a string.
         let subStringOne = stringArr.replaceAll('1', 'a');
         let subStringTwo = subStringOne.replaceAll('2', 'b');
+        let subStringThree = subStringTwo.replace('3', 'c');
         // workingSubArray = stringArr.split(" ");
         // console.log(workingSubArray);
         // if (workingSubArray.charAt(1) === 1){
@@ -16,8 +17,8 @@ function subAlgo(number) {
         //     console.log(workingSubArray);
         // }
         // debugger;
-        console.log(subStringOne);
-        console.log(subStringTwo);
+        
+        console.log(subStringThree);
         // stringArr.forEach(function(element){
 
         // });
