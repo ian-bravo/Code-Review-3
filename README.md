@@ -6,7 +6,7 @@
 
 ## GitHub Page ##
 
-https://ian-bravo.github.io/Code-Review-2/
+https://ian-bravo.github.io/Code-Review-3/
 
 
 ## Technologies Used
@@ -18,7 +18,7 @@ https://ian-bravo.github.io/Code-Review-2/
 
 ## Description
 
-This webpage will ask the User five questions to generate results to be displayed after clicking submit. After submitting, the results are displayed. The results are formed from a specific set of answers. There is an option to show what the specific combinations are by hovering over a box-area.
+This webpage will ask the User to enter a number. This number will then be displayed as the 'input'. The number will then display all integers from zero to the User's number as an 'output'. Any integers that contain 1 will be replaced with 'Beep!'; integers that contain 2 will be replaced with 'Boop!'; integers that contain 3 will be replaced with 'Won't you be my neighbor?'. Integers that contain any of the previously listed integers will prioritize integers that have a 3 in them, followed by a 2 in them, and lastly followed by a 1 in them.
 
 ## Setup/Installation Requirements
 
