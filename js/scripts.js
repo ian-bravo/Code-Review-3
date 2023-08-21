@@ -1,19 +1,21 @@
 //Business Logic
 
-let userInput = "12" // or [5]
+let userInput = "13" // or [5]
 function subAlgo(number) {
     let userInputToArr = [];
     console.log(userInputToArr);
     for (let i = 0; i <= number; i++) {
         userInputToArr.push(i);
         // let filterArr = userInputToArr.slice(1,4); //needs to be dynamic to match input! [1, 2, 3] if at least 4 in inputted... maybe not?
+        if (userInputToArr[i].toString().includes('3') === true){
+            userInputToArr.splice(i, 1, "c")
+        } 
         if (userInputToArr[i].toString().includes('2') === true){
             userInputToArr.splice(i, 1, "b")
         } 
         if (userInputToArr[i].toString().includes('1') === true){
             userInputToArr.splice(i, 1, "a")
         } 
-        
         console.log(userInputToArr);
         
 
