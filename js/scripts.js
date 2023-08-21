@@ -1,24 +1,34 @@
 //Business Logic
 
-let userInput = "11" // or [5]
+let userInput = "4" // or [5]
 function subAlgo(number) {
     let userInputToArr = [];
+    console.log(userInputToArr);
     for (let i = 0; i <= number; i++) {
+        let filterArr = userInputToArr.slice(1,4); //needs to be dynamic to match input! [1, 2, 3] if at least 4 in inputted
+        if (filterArr[i] === 1){
+            userInputToArr.push(i);
+            console.log(userInputToArr);
+        } else {
+            userInputToArr.push(i);
+        }
         userInputToArr.push(i);// sets the userInput as an array [0-N]
         // console.log(userInputToArr);
-        let stringArr = userInputToArr.toString(); // converts the array to a string.
-        let subStringOne = stringArr.replaceAll('1', 'a');
-        let subStringTwo = subStringOne.replaceAll('2', 'b');
-        let subStringThree = subStringTwo.replaceAll('3', 'c');
-    
-        let finalResult = [];
+        console.log(userInputToArr);
         
-        
-        if (subStringThree.includes('a') === true) {
-            finalResult.push(subStringThree.replaceAll('a0', 'a').replace('aa','a'));
+
+        // let stringArr = userInputToArr.toString(); // converts the array to a string.
+        // let subStringOne = stringArr.replaceAll('1', 'a');
+        // let subStringTwo = subStringOne.replaceAll('2', 'b');
+        // let subStringThree = subStringTwo.replaceAll('3', 'c');
+        // let finalResult = [];
+        // if (subStringThree.includes('a') === true) {
+        //     finalResult.push(subStringThree.replaceAll('a0', 'a').replace('aa','a'));
             
-            console.log(finalResult);
-        } 
+        //     console.log(finalResult);
+        // } 
+
+
         // } else if (subStringThree.includes('aa') === true){
         //     finalResult.push(subStringThree.replaceAll('aa', 'a'));
         // } 
