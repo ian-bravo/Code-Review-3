@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/scripts.js"></script>
     <title>Mr. Roboger's Neighborhood</title>
 </head>
 <body>
-    
+    <h1>Enter a number to Roboger-fy it~~</h1>
+    <form>
+        <label for="userInputNumber">Enter number here:</label>
+        <input id="userInputNumber" type="text" name="userInputNumber">
+        <button type="submit">Show me!</button>
+    </form>
+    <div id="results" class="hidden">
+        <p id="answer-reveal"></p>
+    </div>
 </body>
 </html>
