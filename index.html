@@ -8,14 +8,17 @@
     <title>Mr. Roboger's Neighborhood</title>
 </head>
 <body>
-    <h1>Enter a number to Roboger-fy it~~</h1>
-    <form>
+    <h1>~~Enter a number to Roboger-fy it~~</h1>
+    <form id="form-input">
         <label for="userInputNumber">Enter number here:</label>
         <input id="userInputNumber" type="text" name="userInputNumber">
         <button type="submit">Show me!</button>
     </form>
     <div id="results" class="hidden">
-        <p id="answer-reveal"></p>
+        <ul>
+            <li id="entered-number"></li>
+            <li id="answer-reveal"></li>
+        </ul>
     </div>
 </body>
 </html>
