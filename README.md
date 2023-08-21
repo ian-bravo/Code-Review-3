@@ -57,4 +57,10 @@ subAlgo(userInput);
 Expect Output:
 '0, a, b, c, 4, 5, 6, 7, 8, 9, a, a, b, c'
 
+Test 9: It should replace 'a' with 'Beep!', 'b' with 'Boop!', 'c' with 'Won't you be my neighbor?'
+Code:
+const userInput = "15"
+Expected Output:
+0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!"
+
 ```
