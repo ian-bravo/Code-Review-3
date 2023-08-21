@@ -1,6 +1,6 @@
 //Business Logic
 
-let userInput = "13" // or [5]
+let userInput = "15" // or [5]
 function subAlgo(number) {
     let userInputToArr = [];
     console.log(userInputToArr);
@@ -8,17 +8,17 @@ function subAlgo(number) {
         userInputToArr.push(i);
         // let filterArr = userInputToArr.slice(1,4); //needs to be dynamic to match input! [1, 2, 3] if at least 4 in inputted... maybe not?
         if (userInputToArr[i].toString().includes('3') === true){
-            userInputToArr.splice(i, 1, "c")
+            userInputToArr.splice(i, 1, "Won't you be my neighbor?")
         } 
         if (userInputToArr[i].toString().includes('2') === true){
-            userInputToArr.splice(i, 1, "b")
+            userInputToArr.splice(i, 1, "Boop!")
         } 
         if (userInputToArr[i].toString().includes('1') === true){
-            userInputToArr.splice(i, 1, "a")
+            userInputToArr.splice(i, 1, "Beep!")
         } 
         console.log(userInputToArr);
-        
-
+    }    
+}
         // let stringArr = userInputToArr.toString(); // converts the array to a string.
         // let subStringOne = stringArr.replaceAll('1', 'a');
         // let subStringTwo = subStringOne.replaceAll('2', 'b');
@@ -63,10 +63,10 @@ function subAlgo(number) {
         
     // } function stringConvert(string) {
     //     let stringArr = splitArr.
-    }
+    
 
     
-}
+
 
 
 // if (workingArr === 1) { //looks at the index value that matches 1
