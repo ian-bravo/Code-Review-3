@@ -49,4 +49,12 @@ const userInput = "12"
 subAlgo(userInput):
 Expected Output:
 '0, a, b, c, 4, 5, 6, 7, 8, 9, a, a, b'
+
+Test 8: It should replace 13 (or ac) with 'c'.
+Code:
+const userInput = "13"
+subAlgo(userInput);
+Expect Output:
+'0, a, b, c, 4, 5, 6, 7, 8, 9, a, a, b, c'
+
 ```
